@@ -50,12 +50,24 @@ a {
 main {
     display: flex;
     gap: 10px;
-    border: solid 3px red;
+    /* border: solid 3px red; */
     padding-right: 15px;
 }
 .photo-section {
     flex-grow: 0;
     /* border: dashed 3px rgb(157, 0, 255); */
+}
+.image {
+    position: relative;
+    border: 3px solid red;
+}
+.magnifying-glass-button {
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
 }
 .item-info-section {
     flex-grow: 1;
