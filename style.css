@@ -59,15 +59,14 @@ main {
 }
 .image {
     position: relative;
-    border: 3px solid red;
 }
 .magnifying-glass-button {
     position: absolute;
-    bottom: 10px;
-    left: 600px;
-    height: 40px;
-    width: 40px;
-    background-color: black;
+    bottom: -55px;
+    left: 575px;
+    height: 65px;
+    width: 65px;
+    background-color: #fff;
 }
 .item-info-section {
     flex-grow: 1;
